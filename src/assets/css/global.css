@@ -1,0 +1,5 @@
+html, body, #app{
+    height: 100%;       /* 高为100% */
+    margin: 0;          /* 无外边距 */
+    padding: 0;         /* 无内边距 */
+}

@@ -1,0 +1,23 @@
+{
+  "id": "2610058",
+  "name": "MM32",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "9318697",
+      "name": "姓名 用户名 昵称",
+      "font_class": "xingmingyonghumingnicheng",
+      "unicode": "e62e",
+      "unicode_decimal": 58926
+    },
+    {
+      "icon_id": "20011378",
+      "name": "密 码",
+      "font_class": "mima",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    }
+  ]
+}

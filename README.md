@@ -31,7 +31,8 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 1. NodeJS 10.14.2
 2. Vue Cli 4.5.13
 
-##VUE-UI使用
+##项目构建步骤
+###VUE-UI使用
 1. 必须安装基础组件
    Babel
    Router
@@ -41,7 +42,26 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
    vue-cli-plugin-element
 3. 安装依赖
    axios
+   less                 
+   less-loader          CSS装载器 必须安装7.3.0，否则必错
+                        安装方法, 修改package.json
+   ```json
+                        "devDependencies": {
+                           "less-loader": "^7.3.0",
+                        }
+   ```
 
+###放置VUE占位符
+1. app.vue
+```html
+<template>
+  <div id="app">
+    <!-- 路由占位符 -->
+    <router-view></router-view>
+  </div>
+</template>
+```
+2. 其余路由规则，参看路由小结
 
 ###样式
 1. 必须定义全局样式规则, 位于src/assets/css/global.css
